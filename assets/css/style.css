@@ -125,7 +125,9 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { 
+    text-decoration: none; 
+  }
 
 li { list-style: none; }
 
@@ -1059,6 +1061,20 @@ main {
   font-weight: var(--fw-300);
 }
 
+.project-text{
+  color: var(--light-gray-70);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  margin-left: 10px;
+}
+
+.project-text-a {
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  text-decoration: underline !important;
+  display: inline;
+}
 
 
 
@@ -1917,6 +1933,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 * RESUME
 	 */
 
-  .timeline-text { max-width: 700px; }
+  .timeline-text { 
+    max-width: 700px;
+  }
 
 }
