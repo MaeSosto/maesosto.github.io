@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- https://github.com/codewithsadee/vcard-personal-portfolio -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mae Sosto</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/myico.ico" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="./assets/images/mae-square.png" alt="Mae Sosto" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Mae Sosto">Mae Sosto</h1>
+
+                    <p class="title">(They/ Them)</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:mae.sosto@gmail.com" class="contact-link">mae.sosto@gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+12133522795" class="contact-link">+39 3312291798</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Bologna, Italy</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/mae-sosto-8533b416b/" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://github.com/MaeSosto" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="assets/files/CV_2024_06_30.pdf" class="social-link" download>
+                            <ion-icon name="document-text-outline"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </aside>
+
+
+
+
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+                    <a href="index.html">
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Public Profile</button>
+                    </li>
+                    </a>
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link>Documents</button>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+
+
+
+            <!--
+        - #DOCUMENTS
+      -->
+
+            <article class="documents  active" data-page="documents">
+
+                <header>
+                    <h2 class="h2 article-title">Documents</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        Hello,
+                        <br><br>
+                        I am sharing this link with you to provide access to some of my documents. Please feel free to download any files you may need. <br>
+                        I kindly ask that you do not share this link with others to maintain the confidentiality of the information.
+                        <br><br>
+                        Thank you.
+                    </p>
+                  </section>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="documents-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Click on a item to download it</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item"> <a href="assets/files/CV_2024_07_02.pdf">
+
+                                <h4 class="h4 timeline-item-title">
+                                    Curriculum Vitae
+                                </h4>
+                                <span>Updated at 5th of July 2024</span>
+                            </a>
+                        </li>
+
+                        <li class="timeline-item"> <a
+                                href="assets/files/QueerBench__Quantifying_Discrimination_in_Language_Models_towards_Queer_Identities-3.pdf">
+
+                                <h4 class="h4 timeline-item-title">
+                                    Master Thesis: QueerBench: Quantifying Discrimination in Language Models towards
+                                    Queer Identities
+                                </h4>
+                                <span>Presented the 14th of December 2023</span>
+                                <p class="timeline-text">
+                                    Grade [Italian system]: 110 (Cum Laude)
+                                </p>
+                                <p class="timeline-text">
+                                    Grade [German system]: 1
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="timeline-item"> <a href="assets/files/UNIBO Degree Certificate.pdf">
+
+                                <h4 class="h4 timeline-item-title">
+                                    Degree Certification and Transcript of Records
+                                </h4>
+                                <span>2017 - 2021 at University of Bologna Alma Mater Studiorum – Università di
+                                    Bologna</span>
+                            </a>
+                        </li>
+
+                        <li class="timeline-item"> <a
+                                href="assets/files/Bielefeld Degree Certificate and transcript.pdf">
+
+                                <h4 class="h4 timeline-item-title">
+                                    Double Degree Certification and Transcript of Records
+                                </h4>
+                                <span>2022 - 2023 at Bielefeld University</span>
+                            </a>
+                        </li>
+
+
+
+                    </ol>
+
+                </section>
+                <section class="about-text">
+                    <p>Note: Please note that officials documents contain my legal name, with which I
+                        do not identify.</p>
+                  </section>
+                
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1425,6 +1425,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .about-text { margin-bottom: 40px; }
 
+  .about-text a{
+    color: var(--orange-yellow-crayola)
+  }
+
   /* service */
 
   .service-item {
